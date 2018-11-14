@@ -1,0 +1,32 @@
+
+.aside-menu
+{
+    background-image: url(./../resources/IMG_20181030_074710.jpg);
+    background-size: cover;
+    font-family: Consolas;
+    font-size: large;
+}
+
+
+.aside-avatar
+{
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    background-image: url(./../resources/IMG_20180131_120750.jpg); background-size: cover;
+    border-radius: 50%;
+
+}
+a
+{
+    color: #ffffff;
+}
+a:visited
+{
+    color: #ffffff;
+}
+.photo
+{
+    height: 200px; width: 100%;
+}
