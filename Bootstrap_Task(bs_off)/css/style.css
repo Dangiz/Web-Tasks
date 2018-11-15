@@ -3,7 +3,6 @@
 {
     background-image: url(./../resources/IMG_20181030_074710.jpg);
     background-size: cover;
-    font-family: Consolas;
     font-size: large;
 }
 
@@ -18,6 +17,32 @@
     border-radius: 50%;
 
 }
+
+p,h1,h2,h3,h4,h5,a,form
+{
+    font-family: Consolas;
+}
+
+.content
+{
+    padding: 15px;
+    background-color: #ffffff;
+    list-style-type: none;
+}
+.content>*
+{
+    margin-top: 50px;
+    border-bottom: 1px #4e555b solid;
+}
+.content h1
+{
+    font-size: xx-large;
+    margin-bottom: 25px;
+}
+.content p
+{
+    font-size: large;
+}
 a
 {
     color: #ffffff;
@@ -28,5 +53,19 @@ a:visited
 }
 .photo
 {
-    height: 200px; width: 100%;
+    border: solid #1b1e21;
+}
+.gallery
+{
+
+}
+.gallery>button
+{
+    max-width: 50%;
+    width: 50%;
+    text-align: center;
+}
+.content img
+{
+    width: 500px;
 }
