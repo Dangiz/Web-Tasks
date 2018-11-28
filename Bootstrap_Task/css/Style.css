@@ -1,21 +1,18 @@
-@media all and (min-width: 1000px)   {
-    .aside {
-        width: 260px;
-        position: fixed;
-    }
-}
-
-.aside
+.editor-text-area
 {
-    background-image: url(./../resources/IMG_20181030_074710.jpg);
-    background-size: cover;
+    width: 100%;
+    min-height: 1000px;
+    font-size: x-large;
 }
-
-.aside-avatar
+.editor-text-area::selection
 {
-    width: 120px; height: 120px;  background-image: url(./../resources/IMG_20180131_120750.jpg); background-size: cover;
+    background: #5a6268;
 }
-.photo
+.editor-text-area img
 {
-    height: 200px; width: 100%;
+    max-width: 700px;
+}
+.navbar button
+{
+    margin-left: 15px;
 }
