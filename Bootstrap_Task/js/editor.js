@@ -24,3 +24,10 @@ function tableInsert(){
     table=table.concat('</table>');
     document.execCommand('insertHTML', false, table);
 }
+
+function imageInsert() {
+    $('#imageModal').modal('toggle');
+    let area=document.getElementById('editor-text-area');
+    area.focus();
+    document.execCommand('insertImage',false,document.getElementById('modal-image-url').value)
+}
